@@ -1,7 +1,7 @@
 export const navConfig = [
   {
     href: "/home",
-    label: "关于",
+    label: "个人优势",
     show: true,
   },
   {
