@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { LINKS } from "./data";
 import { navConfig } from "../Navbar/config";
 
 const Footer = () => {
@@ -28,6 +29,23 @@ const Footer = () => {
                   </div>
                   <p className="text-sm text-zinc-400 dark:text-zinc-500">
                     © Erick Wang. All rights reserved.
+                  </p>
+                </div>
+              </div>
+              <div className="mx-auto lg:max-w-5xl">
+                <div className="flex flex-col items-center justify-between gap-6 sm:flex-row mt-2">
+                  <p className="flex flex-row items-center text-sm text-zinc-800 dark:text-zinc-200">
+                    Build with most popular modules:
+                    {LINKS.map((item, index) => (
+                      <a
+                        key={index}
+                        href={item.url}
+                        target="_blank"
+                        className="flex text-teal-500 ml-3"
+                      >
+                        {item.title}
+                      </a>
+                    ))}
                   </p>
                 </div>
               </div>

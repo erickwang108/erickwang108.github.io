@@ -36,8 +36,9 @@ export default function Introduce() {
                   有扎实的前端基本功（Javascript、Typescript、ES5/6、HTML5、CSS、HTTP、性能及安全等），掌握前端先进的技术理念
                 </DataList>
                 <DataList>
-                  熟练掌握前端React/Vue框架，状态管理模式：Redux / MobX /
-                  GraphQL / Immer等，以及丰富的React生态，并在项目中得到具体应用
+                  熟练掌握前端React / React-Native /
+                  Vue框架，状态管理模式：Redux / MobX / GraphQL /
+                  Immer等，以及丰富的React生态，并在项目中得到具体应用
                 </DataList>
                 <DataList>
                   熟悉前端常用的构建工具：Gulp，Webpack等，熟练使用git
