@@ -2,9 +2,9 @@ import path from "path";
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
-  // pathPrefix: "/",
+  pathPrefix: "",
   flags: {
-    DEV_SSR: true,
+    DEV_SSR: false,
   },
   siteMetadata: {
     title: `WhoamI`,

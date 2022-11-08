@@ -9,8 +9,6 @@ type NavProps = {
 };
 
 const Nav: FC<NavProps> = ({ mobile = false, onClickNavItem }) => {
-  const { pathname = "" } =
-    typeof window !== "undefined" ? window.location : {};
   const navClassnames = classnames({
     "mt-6": mobile,
     "pointer-events-auto hidden md:block": !mobile,
@@ -28,7 +26,9 @@ const Nav: FC<NavProps> = ({ mobile = false, onClickNavItem }) => {
         {navConfig
           .filter(({ show }) => show)
           .map(({ href, label }) => {
-            const active = pathname === href;
+            const { pathname = "" } =
+              typeof window !== "undefined" ? window.location : {};
+            const active = pathname.includes(href);
             const classes = classnames(
               "relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400",
               {

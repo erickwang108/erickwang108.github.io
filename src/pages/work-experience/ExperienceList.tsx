@@ -9,6 +9,7 @@ export default function ExperienceList() {
           key={data.id}
           className="md:grid md:grid-cols-4 md:items-baseline"
         >
+          data=={data.id}
           <div className="md:col-span-3 group relative flex flex-col items-start">
             <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
               <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
@@ -35,7 +36,7 @@ export default function ExperienceList() {
               </span>
               {data.startDate}-{data.endDate}
             </time>
-            <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+            <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
               {data.description.intro}
               <ul className="list-decimal" style={{ marginLeft: "16px" }}>
                 {data.description?.list.map((resItem) => (
@@ -44,7 +45,7 @@ export default function ExperienceList() {
                   </li>
                 ))}
               </ul>
-            </p>
+            </div>
           </div>
           <time
             className="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"

@@ -9,7 +9,7 @@ const styles = {
 
 const DataList = styled.li`
   margin-left: 32px;
-  list-style-type: decimal;
+  list-style-type: circle;
 `;
 
 export default function Introduce() {
@@ -25,12 +25,12 @@ export default function Introduce() {
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                 我是王义峰（Erick），一名前端软件开发工程师，在深圳和北京工作多年，积累了丰富的软件开发、架构以及项目管理工作经验，总结有以下几点个人优势：
               </p>
-              <ul className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              <ol className="mt-6 text-base text-zinc-600 dark:text-zinc-400 list-decimal">
                 <DataList>熟练掌握敏捷开发流程及项目管理</DataList>
                 <DataList>通过大学英语6级考试（CET 6）</DataList>
                 <DataList>
-                  自学并掌握了区块链相关知识：Solidity / Web3.js / Ether.js /
-                  Truffle / Hardhat / Chai / MetaMask / Ganache 等
+                  自学并掌握了区块链Dapp开发相关知识：Solidity / Web3.js /
+                  Ether.js / Truffle / Hardhat / Chai / MetaMask / Ganache 等
                 </DataList>
                 <DataList>
                   有扎实的前端基本功（Javascript、Typescript、ES5/6、HTML5、CSS、HTTP、性能及安全等），掌握前端先进的技术理念
@@ -58,7 +58,7 @@ export default function Introduce() {
                 <DataList>
                   性格开朗，善于思考学习，自学和团队协作能力强
                 </DataList>
-              </ul>
+              </ol>
               <div className="mt-6 flex gap-4">
                 <a
                   className="group -m-1 p-1"
