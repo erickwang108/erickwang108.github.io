@@ -12,15 +12,19 @@ const Footer = () => {
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
                   <div className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                    {navConfig.map((item) => (
-                      <Link
-                        key={item.href}
-                        to={item.href}
-                        className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
+                    {navConfig.map((item) => {
+                      return (
+                        item.show && (
+                          <Link
+                            key={item.href}
+                            to={item.href}
+                            className="transition hover:text-teal-500 dark:hover:text-teal-400"
+                          >
+                            {item.label}
+                          </Link>
+                        )
+                      );
+                    })}
                   </div>
                   <p className="text-sm text-zinc-400 dark:text-zinc-500">
                     © Erick Wang. All rights reserved.

@@ -1,12 +1,7 @@
 export const navConfig = [
   {
     href: "/home",
-    label: "个人优势",
-    show: true,
-  },
-  {
-    href: "/education",
-    label: "教育背景",
+    label: "关于",
     show: true,
   },
   {
@@ -15,13 +10,23 @@ export const navConfig = [
     show: true,
   },
   {
+    href: "/projects",
+    label: "项目经验",
+    show: true,
+  },
+  {
     href: "/articles",
     label: "文章",
     show: false,
   },
   {
-    href: "/projects",
-    label: "项目经验",
+    href: "/education",
+    label: "教育背景",
     show: true,
+  },
+  {
+    href: "/fe-ecosystem",
+    label: "前端生态",
+    show: false,
   },
 ];
