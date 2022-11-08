@@ -52,6 +52,7 @@ const AboutPage = () => {
                   <ul role="list">
                     <li className="mt-4 flex">
                       <a
+                        target="_blank"
                         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
                         aria-label="Follow on GitHub"
                         href="https://github.com/erickwang108"
@@ -65,6 +66,7 @@ const AboutPage = () => {
                     </li>
                     <li className="mt-4 flex">
                       <a
+                        target="_blank"
                         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
                         aria-label="Follow on Zhihu"
                         href="https://www.zhihu.com/people/86-91-47-84/posts"
