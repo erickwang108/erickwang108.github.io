@@ -27,6 +27,17 @@ export default function Introduce() {
                   Ether.js / Truffle / Hardhat / Chai / MetaMask / Ganache 等
                 </DataList>
                 <DataList>
+                  深入阅读
+                  <a
+                    className="mx-2 text-teal-500 hover:text-teal-300 underline"
+                    href="https://github.com/OpenZeppelin/openzeppelin-contracts"
+                  >
+                    openzeppelin
+                  </a>
+                  开源合约项目， 掌握了Tokens: ERC-20 / ERC-721 / ERC-777 /
+                  ERC-1155等，新的知识正进一步学习中。
+                </DataList>
+                <DataList>
                   有扎实的前端基本功（Javascript、Typescript、ES5/6、HTML5、CSS、HTTP、性能及安全等），掌握前端先进的技术理念
                 </DataList>
                 <DataList>
