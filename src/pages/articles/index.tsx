@@ -174,4 +174,4 @@ const ArticlesPage = () => {
 
 export default ArticlesPage;
 
-export const Head: HeadFC = () => <title>Articles</title>;
+export const Head: HeadFC = () => <title>我的文章</title>;

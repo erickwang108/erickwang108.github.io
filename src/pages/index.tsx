@@ -8,4 +8,4 @@ const HomePage = () => {
 
 export default HomePage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <title>首页</title>;

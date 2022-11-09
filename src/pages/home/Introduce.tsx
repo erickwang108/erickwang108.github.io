@@ -35,7 +35,7 @@ export default function Introduce() {
                   Immer等，以及丰富的React生态，并在项目中得到具体应用
                 </DataList>
                 <DataList>
-                  熟悉前端常用的构建工具：Gulp，Webpack等，熟练使用git
+                  熟悉前端常用的构建工具：Gulp，Webpack等，熟练使用Git
                 </DataList>
                 <DataList>
                   熟悉前端工程化、组件化、模块化的开发模式，并具备设计和构建能力

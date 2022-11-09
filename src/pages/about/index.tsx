@@ -114,4 +114,4 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-export const Head: HeadFC = () => <title>About me</title>;
+export const Head: HeadFC = () => <title>关于我</title>;

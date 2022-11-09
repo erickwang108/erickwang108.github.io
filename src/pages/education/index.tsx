@@ -74,4 +74,4 @@ const EducationPage = () => {
 
 export default EducationPage;
 
-export const Head: HeadFC = () => <title>Education</title>;
+export const Head: HeadFC = () => <title>教育背景</title>;

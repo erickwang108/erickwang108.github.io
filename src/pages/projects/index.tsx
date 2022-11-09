@@ -28,4 +28,4 @@ const ProjectsPage = () => {
 
 export default ProjectsPage;
 
-export const Head: HeadFC = () => <title>Projects</title>;
+export const Head: HeadFC = () => <title>项目经验</title>;

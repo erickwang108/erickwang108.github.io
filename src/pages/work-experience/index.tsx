@@ -35,4 +35,4 @@ const WorkExperiencePage = () => {
 
 export default WorkExperiencePage;
 
-export const Head: HeadFC = () => <title>Work Experience</title>;
+export const Head: HeadFC = () => <title>工作经历</title>;
