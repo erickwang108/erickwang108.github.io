@@ -1,11 +1,5 @@
 import * as React from "react";
-import { AiFillGithub, AiFillZhihuCircle } from "react-icons/ai";
 import styled from "styled-components";
-
-const styles = {
-  iconClass:
-    "h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300",
-};
 
 const DataList = styled.li`
   margin-left: 32px;
@@ -60,22 +54,6 @@ export default function Introduce() {
                   性格开朗，善于思考学习，自学和团队协作能力强
                 </DataList>
               </ol>
-              <div className="mt-6 flex gap-4">
-                <a
-                  className="group -m-1 p-1"
-                  aria-label="Follow on GitHub"
-                  href="https://github.com/erickwang108"
-                >
-                  <AiFillGithub className={styles.iconClass} />
-                </a>
-                <a
-                  className="group -m-1 p-1"
-                  aria-label="Follow on Zhihu"
-                  href="https://www.zhihu.com/people/86-91-47-84/posts"
-                >
-                  <AiFillZhihuCircle className={styles.iconClass} />
-                </a>
-              </div>
             </div>
           </div>
         </div>

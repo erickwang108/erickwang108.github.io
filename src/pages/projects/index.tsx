@@ -14,7 +14,7 @@ const ProjectsPage = () => {
                   知识成就梦想
                 </h1>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  下面只列出了比较重要的项目，这些项目使我的视野不断开阔，知识面也不断得到提高。
+                  下面只列出了比较重要的项目，经历过这些项目，使我的视野不断开阔，知识面也有了很大的提高。
                 </p>
               </header>
               <ProjectList />
