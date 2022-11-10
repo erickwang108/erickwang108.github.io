@@ -30,10 +30,6 @@ pre[class*=language-] {
   color: #a1a1aa
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /*
 ! tailwindcss v3.2.1 | MIT License | https://tailwindcss.com
 */
