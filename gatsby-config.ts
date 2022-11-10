@@ -4,7 +4,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   pathPrefix: "",
   flags: {
-    DEV_SSR: true,
+    DEV_SSR: false,
   },
   siteMetadata: {
     title: `WhoamI`,

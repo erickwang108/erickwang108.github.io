@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import ModuleLink from "components/ModuleLink";
 
 const DataList = styled.li`
   margin-left: 32px;
@@ -23,41 +24,58 @@ export default function Introduce() {
                 <DataList>熟练掌握敏捷开发流程及项目管理</DataList>
                 <DataList>通过大学英语6级考试（CET 6）</DataList>
                 <DataList>
-                  自学并掌握了区块链Dapp开发相关知识：Solidity / Web3.js /
-                  Ether.js / Truffle / Hardhat / Chai / MetaMask / Ganache 等
+                  自学并掌握了区块链Dapp开发相关知识：
+                  <ModuleLink id="solidity" />,<ModuleLink id="web3js" />,
+                  <ModuleLink id="ethersjs" />,<ModuleLink id="truffle" />,
+                  <ModuleLink id="hardhat" />,<ModuleLink id="metaMask" />,
+                  <ModuleLink id="ganache" />等
                 </DataList>
                 <DataList>
                   深入阅读
-                  <a
-                    className="mx-2 text-teal-500 hover:text-teal-300 underline"
-                    href="https://github.com/OpenZeppelin/openzeppelin-contracts"
-                  >
-                    openzeppelin
-                  </a>
-                  开源合约项目， 掌握了Tokens: ERC-20 / ERC-721 / ERC-777 /
-                  ERC-1155等，新的知识正进一步学习中。
+                  <ModuleLink id="openzeppelin" />
+                  开源合约项目， 掌握了Tokens: <ModuleLink id="erc20" />/
+                  <ModuleLink id="erc721" />/<ModuleLink id="erc777" />/
+                  <ModuleLink id="erc1155" />
+                  等，新的知识正进一步学习中。
                 </DataList>
                 <DataList>
                   有扎实的前端基本功（Javascript、Typescript、ES5/6、HTML5、CSS、HTTP、性能及安全等），掌握前端先进的技术理念
                 </DataList>
                 <DataList>
-                  熟练掌握前端React / React-Native /
-                  Vue框架，状态管理模式：Redux / MobX / GraphQL /
-                  Immer等，以及丰富的React生态，并在项目中得到具体应用
+                  熟练掌握前端
+                  <ModuleLink id="react" />/<ModuleLink id="rn" />/
+                  <ModuleLink id="vue" />
+                  框架，状态管理模式：
+                  <ModuleLink id="redux" />/<ModuleLink id="mobx" />/
+                  <ModuleLink id="graphql" />/<ModuleLink id="immerjs" />
+                  等，以及丰富的React生态，并在项目中得到具体应用
                 </DataList>
                 <DataList>
-                  熟悉前端常用的构建工具：Gulp，Webpack等，熟练使用Git
+                  熟悉前端常用的构建工具：
+                  <ModuleLink id="gulpjs" />，<ModuleLink id="webpack" />
+                  等，熟练使用
+                  <ModuleLink id="git" />
                 </DataList>
                 <DataList>
                   熟悉前端工程化、组件化、模块化的开发模式，并具备设计和构建能力
                 </DataList>
                 <DataList>
-                  熟练掌握前后端框架：NodeJS / Express / NestJS / NextJS等
+                  熟练掌握前后端框架：
+                  <ModuleLink id="nodejs" />/<ModuleLink id="expressjs" />/
+                  <ModuleLink id="nextjs" />/<ModuleLink id="nextjs" />等
                 </DataList>
                 <DataList>熟悉数据库MySql, MongooseJS 等</DataList>
-                <DataList>熟练使用 d3, echarts 可视化图表库</DataList>
                 <DataList>
-                  掌握前端Jest、RTL、Puppeteer等测试框架，具备高质量模块及应用开发能力
+                  熟练使用
+                  <ModuleLink id="d3" />, <ModuleLink id="echarts" />
+                  可视化图表库
+                </DataList>
+                <DataList>
+                  掌握前端
+                  <ModuleLink id="jest" />,<ModuleLink id="rtl" />,
+                  <ModuleLink id="chai" />
+                  <ModuleLink id="puppeteer" />
+                  等测试框架，具备高质量模块及应用开发能力
                 </DataList>
                 <DataList>具备前端架构设计能力及实践经验</DataList>
                 <DataList>熟悉其它语言: Java、C、C++、Object-C</DataList>
