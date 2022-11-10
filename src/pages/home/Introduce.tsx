@@ -43,8 +43,7 @@ export default function Introduce() {
                 </DataList>
                 <DataList>
                   熟练掌握前端
-                  <ModuleLink id="react" />/<ModuleLink id="rn" />/
-                  <ModuleLink id="vue" />
+                  <ModuleLink id="react" />/<ModuleLink id="rn" />
                   框架，状态管理模式：
                   <ModuleLink id="redux" />/<ModuleLink id="mobx" />/
                   <ModuleLink id="graphql" />/<ModuleLink id="immerjs" />
@@ -62,7 +61,7 @@ export default function Introduce() {
                 <DataList>
                   熟练掌握前后端框架：
                   <ModuleLink id="nodejs" />/<ModuleLink id="expressjs" />/
-                  <ModuleLink id="nextjs" />/<ModuleLink id="nextjs" />等
+                  <ModuleLink id="nextjs" />/<ModuleLink id="nestjs" />等
                 </DataList>
                 <DataList>熟悉数据库MySql, MongooseJS 等</DataList>
                 <DataList>

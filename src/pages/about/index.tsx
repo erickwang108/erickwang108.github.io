@@ -28,9 +28,12 @@ const AboutPage = () => {
                 </div>
                 <div className="lg:order-first lg:row-span-2">
                   <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                    我是王义峰，现居住在北京, 这里是我实现梦想的地方之一。
+                    我是王义峰，英文名Erick。
                   </h1>
                   <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+                    <p>
+                      我来自山东省济宁市，现居住在北京经济技术开发区，这里是我实现梦想的地方之一。
+                    </p>
                     <p>
                       从我第一次接触计算机开始，慢慢的就喜欢上编程，因为我喜欢让计算机帮我处理数据。
                       从最初使用windows系列，到近多年开始使用MacBook，计算机使我的工作和工作越来越丰富多彩。
