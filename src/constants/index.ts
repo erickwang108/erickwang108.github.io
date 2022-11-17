@@ -87,7 +87,7 @@ export const LATEST_PROJECT = {
     "在项目中主要是作为系统架构师的角色维护系统的开发及性能优化等工作。",
   technology: {
     intro:
-      "系统使用Express控制客户端的请求，Node Server做服务器端渲染、前端使用React展示可复用的组件、Redux用来控制组件状态(包括从API Server相应的数据)，NestJS展示不同的页面和相应的组件，使用Webpack对模块进行打包等。",
+      "系统使用Express控制客户端的请求，Node Server做服务器端渲染、前端使用React展示可复用的组件、Redux用来控制组件状态(包括从API Server相应的数据)，NextJS展示不同的页面和相应的组件，使用Webpack对模块进行打包等。",
     list: [
       "系统开发环境的搭建、维护升级、系统模块设计、重要模块的开发，以及性能优化",
       "不断学习新技术，指导和培训其它同事进行开发，推动部门整体技术水平的提高",
@@ -225,7 +225,10 @@ export const TOPCENTER_PROJECT = {
         stack: [
           "GeoServer",
           "OpenLayers",
-          "Javascript ",
+          "Javascript",
+          "Spring",
+          "Hibernate",
+          "Javascript",
           "HTML",
           "CSS",
           "JSP",
@@ -254,7 +257,18 @@ export const MINTAIAN_PROJECT = {
           "服务器和客户端web的开发及测试",
           "进度跟踪在项目中主要完成以下工作",
         ],
-        stack: ["Java", "JSP", "ExtJs", "Javascript ", "HTML", "CSS", "jQuery"],
+        stack: [
+          "Java",
+          "JSP",
+          "Spring",
+          "Struts",
+          "Hibernate",
+          "ExtJs",
+          "Javascript ",
+          "HTML",
+          "CSS",
+          "jQuery",
+        ],
       },
     },
   ],

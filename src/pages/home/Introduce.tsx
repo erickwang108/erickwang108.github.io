@@ -24,7 +24,7 @@ export default function Introduce() {
                 <DataList>熟练掌握敏捷开发流程及项目管理</DataList>
                 <DataList>通过大学英语6级考试（CET 6）</DataList>
                 <DataList>
-                  自学并掌握了区块链Dapp开发相关知识：
+                  自学并掌握了区块链Dapp相关知识：
                   <ModuleLink id="solidity" />,<ModuleLink id="web3js" />,
                   <ModuleLink id="ethersjs" />,<ModuleLink id="truffle" />,
                   <ModuleLink id="hardhat" />,<ModuleLink id="metaMask" />,
@@ -36,18 +36,19 @@ export default function Introduce() {
                   开源合约项目， 掌握了Tokens: <ModuleLink id="erc20" />/
                   <ModuleLink id="erc721" />/<ModuleLink id="erc777" />/
                   <ModuleLink id="erc1155" />
-                  等，新的知识正进一步学习中。
+                  等，新的知识正进一步学习中
                 </DataList>
                 <DataList>
                   有扎实的前端基本功（Javascript、Typescript、ES5/6、HTML5、CSS、HTTP、性能及安全等），掌握前端先进的技术理念
                 </DataList>
                 <DataList>
                   熟练掌握前端
-                  <ModuleLink id="react" />/<ModuleLink id="rn" />
+                  <ModuleLink id="react" />/<ModuleLink id="rn" />/
+                  <ModuleLink id="vue" />
                   框架，状态管理模式：
                   <ModuleLink id="redux" />/<ModuleLink id="mobx" />/
                   <ModuleLink id="graphql" />/<ModuleLink id="immerjs" />
-                  等，以及丰富的React生态，并在项目中得到具体应用
+                  等，以及丰富的React生态，并在多个项目中得到应用
                 </DataList>
                 <DataList>
                   熟悉前端常用的构建工具：
@@ -63,7 +64,7 @@ export default function Introduce() {
                   <ModuleLink id="nodejs" />/<ModuleLink id="expressjs" />/
                   <ModuleLink id="nextjs" />/<ModuleLink id="nestjs" />等
                 </DataList>
-                <DataList>熟悉数据库MySql, MongooseJS 等</DataList>
+                <DataList>熟悉数据库MySql, Mongoose 等</DataList>
                 <DataList>
                   熟练使用
                   <ModuleLink id="d3" />, <ModuleLink id="echarts" />

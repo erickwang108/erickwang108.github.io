@@ -59,11 +59,11 @@ export const MODULES: Module = {
     url: "https://git-scm.com/",
   },
   gulpjs: {
-    name: "gulpjs",
+    name: "Gulp",
     url: "https://gulpjs.com/",
   },
   webpack: {
-    name: "webpack",
+    name: "Webpack",
     url: "https://webpack.js.org/",
   },
   redux: {
@@ -87,11 +87,11 @@ export const MODULES: Module = {
     url: "https://graphql.org/",
   },
   web3js: {
-    name: "web3.js",
+    name: "Web3.js",
     url: "https://web3js.readthedocs.io/",
   },
   ethersjs: {
-    name: "ethers.js",
+    name: "Ethers.js",
     url: "https://docs.ethers.io/v5/",
   },
   truffle: {
@@ -99,7 +99,7 @@ export const MODULES: Module = {
     url: "https://trufflesuite.com",
   },
   chai: {
-    name: "chaijs",
+    name: "Chai",
     url: "https://www.chaijs.com/",
   },
   openzeppelin: {
@@ -133,5 +133,17 @@ export const MODULES: Module = {
   erc1155: {
     name: "ERC1155",
     url: "https://docs.openzeppelin.com/contracts/4.x/erc1155",
+  },
+  struts: {
+    name: "Struts",
+    url: "https://struts.apache.org/",
+  },
+  spring: {
+    name: "Spring",
+    url: "https://spring.io/",
+  },
+  hibernate: {
+    name: "Hibernate",
+    url: "https://hibernate.org/",
   },
 };
