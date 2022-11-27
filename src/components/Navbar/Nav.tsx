@@ -28,7 +28,7 @@ const Nav: FC<NavProps> = ({ mobile = false, onClickNavItem }) => {
           .map(({ href, label }) => {
             const { pathname = "" } =
               typeof window !== "undefined" ? window.location : {};
-            const active = pathname === `${href}/`;
+            const active = pathname.includes(href);
             const classes = classnames(
               "relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400",
               {

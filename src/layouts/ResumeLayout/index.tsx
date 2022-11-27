@@ -1,7 +1,7 @@
 import React from "react";
 import ContextWrapper from "context/index";
-import Footer from "components/Footer";
-import Navbar from "components/Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 type LayoutProps = {
   children: React.ReactNode;
