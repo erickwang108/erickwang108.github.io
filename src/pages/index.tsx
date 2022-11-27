@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby";
-import Home from "./home";
+import Home from "./resume/home";
 
 const HomePage = () => {
   return <Home />;

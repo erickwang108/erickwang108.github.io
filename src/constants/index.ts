@@ -228,7 +228,6 @@ export const TOPCENTER_PROJECT = {
           "Javascript",
           "Spring",
           "Hibernate",
-          "Javascript",
           "HTML",
           "CSS",
           "JSP",

@@ -1,37 +1,27 @@
 export const navConfig = [
   {
-    href: "/about",
-    label: "关于我",
-    show: true,
-  },
-  {
-    href: "/home",
+    href: "/resume",
     label: "个人优势",
     show: true,
   },
   {
-    href: "/work-experience",
+    href: "/resume/about",
+    label: "关于我",
+    show: true,
+  },
+  {
+    href: "/resume/work-experience",
     label: "工作经历",
     show: true,
   },
   {
-    href: "/projects",
+    href: "/resume/projects",
     label: "项目经验",
     show: true,
   },
   {
-    href: "/articles",
-    label: "文章",
-    show: false,
-  },
-  {
-    href: "/education",
+    href: "/resume/education",
     label: "教育背景",
     show: true,
-  },
-  {
-    href: "/fe-ecosystem",
-    label: "前端生态",
-    show: false,
   },
 ];
