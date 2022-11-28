@@ -1,5 +1,24 @@
 export const WORK_EXPERIENCE = [
   {
+    id: "cid_0",
+    name: "合伙创业",
+    startDate: "2022年05月",
+    endDate: "迄今",
+    dept: "技术部",
+    career: "负责人",
+    description: {
+      intro: "主要职责:",
+      list: [
+        "产品需求分析",
+        "产品架构",
+        "产品开发",
+        "技术突破",
+        "性能优化",
+        "业务沟通",
+      ],
+    },
+  },
+  {
     id: "cid_1",
     name: "慧科讯业（北京）网络科技有限公司",
     startDate: "2014年11月",
@@ -115,6 +134,64 @@ export const LATEST_PROJECT = {
       "Kubernetes",
     ],
   },
+};
+
+export const BUSINESS_PROJECT = {
+  cid: "cid_0",
+  projects: [
+    {
+      id: "business_p0",
+      name: "Syncon Hub Order",
+      startDate: "2022/5",
+      endDate: "迄今",
+      description:
+        "由于马斯基海运业订单舱位开放时间未知，部分航线舱位紧张，普通用户需要不断刷新页面来确认是否有新的舱位，手动刷新很难预定到理想的舱位。该系统使用Puppeteer实现了用户自动登录、表单自动填充与提交、订单流程的自动化和任务流程化。用户在登录该系统平台后，输入预定舱位的表单数据，检查完整后，可通过Chrome浏览器插件将数据实时保存到该系统。新建/更新/删除的订单将与实时队列（Redis-based）同步：过期或已删除的订单任务将被终止，新创建或更新的订单将根据其状态同步到队列。成功订舱的数据将会保存到历史记录，并通过实时发送短信和邮件信息给客户。",
+      responsibility: "",
+      technology: {
+        intro: "",
+        list: [
+          "系统设计及架构",
+          "开发",
+          "代码审查",
+          "技术突破",
+          "文档编写与维护",
+        ],
+        stack: [
+          "NextJS",
+          "Antd",
+          "NestJS",
+          "D3",
+          "Bull",
+          "Redis",
+          "NodeJS",
+          "Mongoose",
+          "Puppeteer",
+          "Styled-Components",
+        ],
+      },
+    },
+    {
+      id: "business_p1",
+      name: "Syncon Hub Chrome Extension",
+      startDate: "2022/5",
+      endDate: "迄今",
+      description:
+        "马斯基用户登录马斯基订舱平台后，查询和填充完整的海运清单后，通过该插件，将表单数据发送到订单服务器，订单服务器将根据订单的状态开启实时任务，进行表单的自动查询及提交。",
+      responsibility: "",
+      technology: {
+        intro: "",
+        list: ["系统设计及架构", "研发"],
+        stack: [
+          "React",
+          "Webpack",
+          "Axios",
+          "Jest",
+          "Styled-Components",
+          "Typescript",
+        ],
+      },
+    },
+  ],
 };
 
 export const WISERS_PROJECT = {
@@ -263,7 +340,7 @@ export const MINTAIAN_PROJECT = {
           "Struts",
           "Hibernate",
           "ExtJs",
-          "Javascript ",
+          "Javascript",
           "HTML",
           "CSS",
           "jQuery",
@@ -274,6 +351,7 @@ export const MINTAIAN_PROJECT = {
 };
 
 export const PROJECT_LIST = [
+  BUSINESS_PROJECT,
   WISERS_PROJECT,
   ERICSSON_PROJECT,
   TOPCENTER_PROJECT,

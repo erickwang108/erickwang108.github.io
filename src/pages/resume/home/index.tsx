@@ -1,15 +1,12 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby";
-import Layout from "components/Layout";
 import Introduce from "./Introduce";
 
 const HomePage = () => {
   return (
-    <Layout>
-      <main>
-        <Introduce />
-      </main>
-    </Layout>
+    <main>
+      <Introduce />
+    </main>
   );
 };
 

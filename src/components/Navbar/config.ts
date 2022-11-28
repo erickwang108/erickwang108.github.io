@@ -1,5 +1,10 @@
 export const navConfig = [
   {
+    href: "/",
+    label: "我的主页",
+    show: false,
+  },
+  {
     href: "/resume",
     label: "个人优势",
     show: true,
