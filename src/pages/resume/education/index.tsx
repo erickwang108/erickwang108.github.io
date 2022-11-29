@@ -52,7 +52,7 @@ const EducationPage = () => {
                         <ul role="list" className="space-y-16">
                           <li className="group relative flex flex-col items-start">
                             <h3 className="text-sm font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                              大地测量学与测量工程专业
+                              GIS / 大地测量学与测量工程
                             </h3>
                             <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                               主修地图制图学，GPS精密定位设计及原理，C++程序设计等

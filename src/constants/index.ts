@@ -160,7 +160,7 @@ export const BUSINESS_PROJECT = {
           "NextJS",
           "Antd",
           "NestJS",
-          "D3",
+          "Echarts",
           "Bull",
           "Redis",
           "NodeJS",
