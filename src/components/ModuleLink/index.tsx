@@ -11,7 +11,7 @@ export default function ModuleLink({ id }: ModuleLinkProps) {
   return (
     data && (
       <a
-        className="mx-2 text-teal-500 hover:text-teal-300"
+        className="ml-2 text-teal-500 hover:text-teal-300"
         href={data.url}
         target="_blank"
       >

@@ -73,8 +73,7 @@ export default function Introduce() {
                 <DataList>
                   掌握前端
                   <ModuleLink id="jest" />,<ModuleLink id="rtl" />,
-                  <ModuleLink id="chai" />
-                  <ModuleLink id="puppeteer" />
+                  <ModuleLink id="chai" />,<ModuleLink id="puppeteer" />
                   等测试框架，具备高质量模块及应用开发能力
                 </DataList>
                 <DataList>具备前端架构设计能力及实践经验</DataList>
