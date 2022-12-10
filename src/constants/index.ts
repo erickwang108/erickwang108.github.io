@@ -1,7 +1,7 @@
 export const WORK_EXPERIENCE = [
   {
     id: "cid_0",
-    name: "合伙创业",
+    name: "青岛远方供应链有限公司",
     startDate: "2022年05月",
     endDate: "迄今",
     dept: "技术部",
